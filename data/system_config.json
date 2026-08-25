@@ -1,0 +1,12 @@
+{
+    "thresholds": {
+        "confidence_minimum": 0.85
+    },
+    "models": {
+        "diagnostic_llm": "gpt-4-turbo"
+    },
+    "execution_params": {
+        "max_retries": 3,
+        "timeout_seconds": 30
+    }
+}
